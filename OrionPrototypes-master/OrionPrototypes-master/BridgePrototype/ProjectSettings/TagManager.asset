@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - smallRock
+  - largeRock
+  - Player2
+  - Ground
+  - PPoint
+  - checkpoint
+  - Panel
+  - DamControl
+  - Pad
+  - Dam
+  - Resource
+  - Shadow Gate
+  - Light Gate
+  - Light Barrier
+  - Shadow Barrier
+  - Camera1
+  - Camera2
+  - ControlRock
+  - ControlRockS2
+  - SingleControlRock
+  - Harmful
+  - Screw
+  - Mushroom
+  - Platform
+  - Switch
+  - Invis
+  - Parenting
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

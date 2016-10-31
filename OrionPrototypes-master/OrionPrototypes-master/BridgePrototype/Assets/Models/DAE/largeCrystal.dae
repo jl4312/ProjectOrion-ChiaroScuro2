@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-03-10T00:06:39Z</created><keywords></keywords><modified>2016-03-10T00:06:39Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="file1-image" name="file1"><init_from>file://T:/orion/6. HI End Texture/sourceimages/Nichols_pointyBlueRock_diffuse.png</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="blinn2" name="blinn2">
+      <instance_effect url="#blinn2-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn2-fx" name="blinn2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.500000  0.500000 0.500000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">6.311791</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.500000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pSphere1-lib" name="pSphere1Mesh">
+      <mesh>
+        <source id="pSphere1-POSITION">
+          <float_array id="pSphere1-POSITION-array" count="60">
+0.111285 -0.235350 -0.192752
+-0.111285 -0.235350 -0.192752
+-0.222570 -0.235350 -0.000000
+-0.111285 -0.235350 0.192752
+0.111285 -0.235350 0.192752
+0.275226 -0.235350 0.000000
+0.115367 0.119068 -0.331201
+-0.196377 0.000000 -0.237738
+-0.335463 0.074966 -0.000000
+-0.196378 0.000000 0.340136
+0.196378 0.000000 0.340136
+0.349800 0.122920 0.000000
+0.067560 0.222570 -0.303985
+-0.216653 0.222570 -0.157654
+-0.263288 0.270602 -0.000000
+-0.111285 0.217800 0.349474
+0.111285 0.294667 0.280460
+0.177959 0.606099 0.039056
+0.000000 -0.235350 0.000000
+0.000000 0.772001 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#pSphere1-POSITION-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pSphere1-Normal0">
+          <float_array id="pSphere1-Normal0-array" count="324">
+-0.096994 -0.307720 -0.946520
+-0.096994 -0.307720 -0.946520
+-0.096994 -0.307720 -0.946520
+-0.096994 -0.307720 -0.946520
+-0.096994 -0.307720 -0.946520
+-0.096994 -0.307720 -0.946520
+-0.837651 -0.339220 -0.428101
+-0.837651 -0.339220 -0.428101
+-0.837651 -0.339220 -0.428101
+-0.837651 -0.339220 -0.428101
+-0.837651 -0.339220 -0.428101
+-0.837651 -0.339220 -0.428101
+-0.849600 -0.400848 0.342783
+-0.849600 -0.400848 0.342783
+-0.849600 -0.400848 0.342783
+-0.849600 -0.400848 0.342783
+-0.849600 -0.400848 0.342783
+-0.849600 -0.400848 0.342783
+-0.000000 -0.530751 0.847528
+-0.000000 -0.530751 0.847528
+-0.000000 -0.530751 0.847528
+-0.000000 -0.530751 0.847528
+-0.000000 -0.530751 0.847528
+-0.000000 -0.530751 0.847528
+0.842131 -0.332015 0.424949
+0.842131 -0.332015 0.424949
+0.842131 -0.332015 0.424949
+0.842131 -0.332015 0.424949
+0.842131 -0.332015 0.424949
+0.842131 -0.332015 0.424949
+0.780482 -0.201130 -0.591941
+0.780482 -0.201130 -0.591941
+0.780482 -0.201130 -0.591941
+0.780482 -0.201130 -0.591941
+0.780482 -0.201130 -0.591941
+0.780482 -0.201130 -0.591941
+-0.400763 0.209797 -0.891838
+-0.400763 0.209797 -0.891838
+-0.400763 0.209797 -0.891838
+-0.400763 0.209797 -0.891838
+-0.400763 0.209797 -0.891838
+-0.400763 0.209797 -0.891838
+-0.862596 0.196329 -0.466244
+-0.862596 0.196329 -0.466244
+-0.862596 0.196329 -0.466244
+-0.862596 0.196329 -0.466244
+-0.862596 0.196329 -0.466244
+-0.862596 0.196329 -0.466244
+-0.852180 0.314720 0.418020
+-0.852180 0.314720 0.418020
+-0.852180 0.314720 0.418020
+-0.852180 0.314720 0.418020
+-0.852180 0.314720 0.418020
+-0.852180 0.314720 0.418020
+0.098922 0.097277 0.990329
+0.098922 0.097277 0.990329
+0.098922 0.097277 0.990329
+0.098922 0.097277 0.990329
+0.098922 0.097277 0.990329
+0.098922 0.097277 0.990329
+0.809149 0.280954 0.516084
+0.809149 0.280954 0.516084
+0.809149 0.280954 0.516084
+0.809149 0.280954 0.516084
+0.809149 0.280954 0.516084
+0.809149 0.280954 0.516084
+0.741807 0.342832 -0.576358
+0.741807 0.342832 -0.576358
+0.741807 0.342832 -0.576358
+0.741807 0.342832 -0.576358
+0.741807 0.342832 -0.576358
+0.741807 0.342832 -0.576358
+-0.000001 -1.000000 0.000000
+-0.000001 -1.000000 0.000000
+-0.000001 -1.000000 0.000000
+-0.000001 -1.000000 0.000000
+-0.000001 -1.000000 0.000000
+-0.000001 -1.000000 0.000000
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+-0.419664 0.399369 -0.815099
+-0.419664 0.399369 -0.815099
+-0.419664 0.399369 -0.815099
+-0.821031 0.431129 -0.374213
+-0.821031 0.431129 -0.374213
+-0.821031 0.431129 -0.374213
+-0.805764 0.423112 0.414393
+-0.805764 0.423112 0.414393
+-0.805764 0.423112 0.414393
+0.084338 0.519323 0.850406
+0.084338 0.519323 0.850406
+0.084338 0.519323 0.850406
+0.326970 0.534247 0.779532
+0.326970 0.534247 0.779532
+0.326970 0.534247 0.779532
+0.570468 0.450209 -0.686934
+0.570468 0.450209 -0.686934
+0.570468 0.450209 -0.686935
+</float_array>
+          <technique_common>
+            <accessor source="#pSphere1-Normal0-array" count="108" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pSphere1-UV0">
+          <float_array id="pSphere1-UV0-array" count="62">
+0.597090 0.036510
+0.761064 0.023303
+0.761064 0.210406
+0.633271 0.164186
+0.890179 0.027299
+0.955753 0.192691
+0.761064 0.328364
+0.687558 0.291543
+0.964508 0.335740
+0.710391 0.626434
+0.213430 0.421386
+0.373088 0.405583
+0.401282 0.591826
+0.216119 0.562796
+0.522618 0.390625
+0.615493 0.602535
+0.387664 0.847676
+0.227478 0.712014
+0.610594 0.668196
+0.397218 0.985123
+0.007687 0.316261
+0.068330 0.196547
+0.141683 0.308923
+0.082647 0.428548
+0.202327 0.189208
+0.307381 0.299848
+0.025949 0.588372
+0.474786 0.045088
+0.475298 0.261427
+0.516420 0.317970
+0.091772 0.719417
+</float_array>
+          <technique_common>
+            <accessor source="#pSphere1-UV0-array" count="31" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pSphere1-VERTEX">
+          <input semantic="POSITION" source="#pSphere1-POSITION"/>
+        </vertices>
+        <triangles count="36" material="blinn2"><input semantic="VERTEX" offset="0" source="#pSphere1-VERTEX"/><input semantic="NORMAL" offset="1" source="#pSphere1-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#pSphere1-UV0"/><p> 7 0 3 0 1 27 1 2 0 0 3 27 7 4 3 6 5 28 2 6 1 7 7 3 1 8 0 7 9 3 2 10 1 8 11 2 3 12 4 8 13 2 2 14 1 8 15 2 3 16 4 9 17 5 10 18 13 9 19 26 3 20 23 10 21 13 3 22 23 4 23 10 4 24 10 5 25 11 11 26 12 4 27 10 11 28 12 10 29 13 11 30 12 0 31 14 6 32 15 0 33 14 11 34 12 5 35 11 7 36 3 12 37 29 6 38 28 12 39 29 7 40 3 13 41 7 13 42 7 8 43 2 14 44 6 8 45 2 13 46 7 7 47 3 15 48 8 8 49 2 9 50 5 8 51 2 15 52 8 14 53 6 10 54 13 15 55 30 9 56 26 15 57 30 10 58 13 16 59 17 11 60 12 16 61 17 10 62 13 16 63 17 11 64 12 17 65 16 12 66 18 17 67 16 11 68 12 11 69 12 6 70 15 12 71 18 1 72 21 18 73 22 2 74 20 2 75 20 18 76 22 3 77 23 3 78 23 18 79 22 4 80 10 4 81 10 18 82 22 5 83 25 5 84 25 18 85 22 0 86 24 0 87 24 18 88 22 1 89 21 12 90 29 13 91 7 19 92 9 13 93 7 14 94 6 19 95 9 14 96 6 15 97 8 19 98 9 15 99 30 16 100 17 19 101 19 16 102 17 17 103 16 19 104 19 17 105 16 12 106 18 19 107 19</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="largeCrystal" name="largeCrystal">
+      <node name="pSphere1" id="pSphere1" sid="pSphere1"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#pSphere1-lib"><bind_material><technique_common><instance_material symbol="blinn2" target="#blinn2"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#largeCrystal"></instance_visual_scene>
+  </scene>
+</COLLADA>
